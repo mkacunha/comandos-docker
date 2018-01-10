@@ -52,8 +52,8 @@
 ### Comandos relacionados à docker-compose
 
 `docker-compose build -d`   Cria as imagens de acordo com o arquivo docker-compose.yaml  
-`docker-compose up -d`   Cria os serviços configurados no docker-compose.yaml
-`docker-compose ps`   Mostras os serviços que estão rodando
-`docker-compose down`   Para todos os serviços e removem os containers
-`docker-compose restart` Reinicia os containers, é como se tivesse executado os comandos `docker-compose down` e `docker-compose up`
+`docker-compose up -d`   Cria os serviços configurados no docker-compose.yaml  
+`docker-compose ps`   Mostras os serviços que estão rodando  
+`docker-compose down`   Para todos os serviços e removem os containers  
+`docker-compose restart` Reinicia os containers, é como se tivesse executado os comandos `docker-compose down` e `docker-compose up`  
 
